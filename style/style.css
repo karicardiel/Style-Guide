@@ -1,0 +1,137 @@
+@font-face {
+  font-family: FontFace;
+  src: url(../fonts/SF-Pro.ttf);
+}
+
+body {
+  font-family: FontFace;
+  color: #484545;
+}
+
+h1 {
+  font-size: 40px;
+}
+.text-gradient {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+h2 {
+  padding-bottom: 10px;
+  padding-top: 15px;
+  font-size: 35px;
+}
+.color-panel {
+  width: 160%;
+  display: inline-block;
+}
+.blue {
+  display: inline-block;
+  background-color: #4158d0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 30px;
+  border-radius: 25px;
+  width: 15%;
+  text-align: center;
+}
+.blue:hover {
+  font-size: 0;
+}
+.blue:hover:after {
+  content: attr(data-hover);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.pink {
+  display: inline-block;
+  background-color: #c850c0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 30px;
+  border-radius: 25px;
+  width: 15%;
+  text-align: center;
+}
+.pink:hover {
+  font-size: 0;
+}
+.pink:hover:after {
+  content: attr(data-hover);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.yellow {
+  display: inline-block;
+  background-color: #ffcc70;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 30px;
+  border-radius: 25px;
+  width: 15%;
+  text-align: center;
+}
+.yellow:hover {
+  font-size: 0;
+}
+.yellow:hover:after {
+  content: attr(data-hover);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.font-panel {
+  width: 30%;
+  display: inline-block;
+  margin-top: -36px;
+}
+.font-label {
+  text-decoration: underline;
+  font-size: 25px;
+}
+.regular {
+  font-size: 16px;
+}
+.italic {
+  font-size: 16px;
+  font-style: italic;
+}
+.bold {
+  font-size: 16px;
+  font-weight: bold;
+}
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+.cutive {
+  font-family: "Cutive Mono", monospace;
+  font-size: 15px;
+}
+
+.text-style-h1 {
+  font-size: 25px;
+  padding-bottom: 0%;
+  font-weight: bold;
+}
+.text-style-h2 {
+  font-size: 20px;
+  padding-bottom: 0%;
+  font-weight: bold;
+}
+.text-style-p {
+  font-size: 25px;
+  padding-bottom: 0%;
+  font-weight: bold;
+}
